@@ -1,0 +1,16 @@
+CRITICAL - 2021-08-11 01:27:18 --> Class "App\Filters\UserFilter" not found
+#0 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#3 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\PHP\\htdocs\\D...')
+#4 {main}
+ERROR - 2021-08-11 01:37:25 --> Unknown column 'name' in 'field list'
+ERROR - 2021-08-11 01:37:55 --> Unknown column 'name' in 'field list'
+ERROR - 2021-08-11 01:40:37 --> Unknown column 'name' in 'field list'
+ERROR - 2021-08-11 01:42:58 --> Unknown column 'name' in 'field list'
+ERROR - 2021-08-11 01:47:22 --> Unknown column 'name' in 'field list'
+ERROR - 2021-08-11 01:49:28 --> Unknown column 'name' in 'field list'
+ERROR - 2021-08-11 01:50:52 --> Table 'user' is read only
+ERROR - 2021-08-11 01:51:09 --> Table 'user' is read only
+ERROR - 2021-08-11 01:52:19 --> Table 'user' is read only
+ERROR - 2021-08-11 01:52:46 --> Table 'user' is read only
