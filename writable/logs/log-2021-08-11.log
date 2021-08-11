@@ -14,3 +14,81 @@ ERROR - 2021-08-11 01:50:52 --> Table 'user' is read only
 ERROR - 2021-08-11 01:51:09 --> Table 'user' is read only
 ERROR - 2021-08-11 01:52:19 --> Table 'user' is read only
 ERROR - 2021-08-11 01:52:46 --> Table 'user' is read only
+ERROR - 2021-08-11 02:06:44 --> Table 'user' is read only
+CRITICAL - 2021-08-11 02:27:20 --> Undefined array key "name"
+#0 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PHP\\htdocs\\D...', 69)
+#1 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(54): App\Controllers\user\LoginController->checkUser(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\user\LoginController->checklogin()
+#3 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\LoginController))
+#4 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\PHP\\htdocs\\D...')
+#7 {main}
+CRITICAL - 2021-08-11 02:27:41 --> Undefined array key "name"
+#0 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PHP\\htdocs\\D...', 69)
+#1 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(54): App\Controllers\user\LoginController->checkUser(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\user\LoginController->checklogin()
+#3 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\LoginController))
+#4 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\PHP\\htdocs\\D...')
+#7 {main}
+CRITICAL - 2021-08-11 02:28:16 --> Undefined array key "name"
+#0 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PHP\\htdocs\\D...', 69)
+#1 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(54): App\Controllers\user\LoginController->checkUser(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\user\LoginController->checklogin()
+#3 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\LoginController))
+#4 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\PHP\\htdocs\\D...')
+#7 {main}
+CRITICAL - 2021-08-11 02:28:31 --> Undefined variable $dataAdmin
+#0 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PHP\\htdocs\\D...', 71)
+#1 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(54): App\Controllers\user\LoginController->checkUser(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\user\LoginController->checklogin()
+#3 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\LoginController))
+#4 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\PHP\\htdocs\\D...')
+#7 {main}
+CRITICAL - 2021-08-11 02:41:55 --> Trying to access array offset on value of type null
+#0 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Views\admin\pages\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PHP\\htdocs\\D...', 8)
+#1 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\PHP\\htdocs\\D...')
+#2 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/pages/ind...', Array, true)
+#4 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\BaseController.php(89): view('admin/pages/ind...', Array)
+#5 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\admin\AdminHomeController.php(12): App\Controllers\BaseController->loadMastLayout(Array, 'Trang qu\xE1\xBA\xA3n l\xC3...', 'admin/pages/ind...', Array, Array, Array)
+#6 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\admin\AdminHomeController->index()
+#7 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AdminHomeController))
+#8 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\PHP\\htdocs\\D...')
+#11 {main}
+ERROR - 2021-08-11 02:43:58 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2021-08-11 02:43:58 --> Unknown column 'email' in 'where clause'
+#0 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Models\AdminModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(74): App\Models\AdminModel->getEmail('admin')
+#6 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\user\LoginController.php(58): App\Controllers\user\LoginController->checkUser(Object(CodeIgniter\HTTP\IncomingRequest))
+#7 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\user\LoginController->checklogin()
+#8 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\LoginController))
+#9 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\PHP\\htdocs\\D...')
+#12 {main}
+CRITICAL - 2021-08-11 02:46:22 --> Undefined array key "email"
+#0 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Views\admin\layout\left-menu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PHP\\htdocs\\D...', 9)
+#1 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\PHP\\htdocs\\D...')
+#2 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/layout/le...', Array, true)
+#4 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\BaseController.php(90): view('admin/layout/le...')
+#5 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\app\Controllers\admin\AdminHomeController.php(12): App\Controllers\BaseController->loadMastLayout(Array, 'Trang qu\xE1\xBA\xA3n l\xC3...', 'admin/pages/ind...', Array, Array, Array)
+#6 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\admin\AdminHomeController->index()
+#7 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AdminHomeController))
+#8 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 D:\PHP\htdocs\DinhTienBo_2018602946_Baikiemtra_PMMNM_20203IT6030001\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\PHP\\htdocs\\D...')
+#11 {main}

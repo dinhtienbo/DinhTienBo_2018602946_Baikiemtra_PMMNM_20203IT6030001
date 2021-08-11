@@ -1,11 +1,10 @@
 <?php
-
 namespace App\Models;
 use App\Models\BaseModel;
 
-class UserModel extends BaseModel
+class AdminModel extends BaseModel
 {
-    var $table='user';
+    var $table='admin';
 
     public function getEmail($email)
     {
